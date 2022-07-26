@@ -1,0 +1,149 @@
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #505050;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1354px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.header {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 21px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+}
+
+.header__top-content {
+    display: flex;
+
+}
+
+.header__top-back img {
+    margin-right: 8px;
+}
+
+.header__top-item img {
+    max-width: 20px;
+}
+
+.header__top-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 35px;
+    max-width: 56px;
+}
+
+.header__top-item img {
+    margin-bottom: 11px;
+}
+
+.header__bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+.header__bottom-left {
+    display: flex;
+}
+
+.header__bottom-right {
+    display: flex;
+}
+
+.header__top-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__bottom-item+.header__bottom-item {
+    display: flex;
+    align-items: center;
+}
+
+.header__bottom-item img {
+    margin-right: 12px;
+}
+
+.header__bottom-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 17px;
+}
+
+.settings {
+    position: relative;
+}
+
+.settings::after {
+    content: url('../images/arrow_down.svg');
+    padding-left: -5px;
+    position: absolute;
+    left: 35px;
+    top: px;
+}
+
+.header__top-back:hover {
+    cursor: pointer;
+    background-color: #f1f1f1;
+}
+
+.header__top-item:hover {
+    cursor: pointer;
+    background-color: #f1f1f1;
+}
+
+.header__bottom-item:hover {
+    cursor: pointer;
+    background-color: #f1f1f1;
+}
+
+/* Верстаем, что ниже хедера */
+.window__bg {
+    background-color: #f1f1f1;
+    padding: 32px 32px;
+}
+
+.window__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 27px;
+}
+
+.window__header__buttoms {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+.window__header__buttoms {
+    cursor: pointer;
+}
+
+.window {
+    background-color: #fff;
+    min-height: 568px;
+}
