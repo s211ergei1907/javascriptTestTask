@@ -147,3 +147,9 @@ body {
     background-color: #fff;
     min-height: 568px;
 }
+
+.map {
+    max-width: 1312px;
+    min-height: 480px;
+    margin: 0 auto;
+}

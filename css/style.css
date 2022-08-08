@@ -131,6 +131,11 @@ body {
     cursor: pointer;
 }
 
+.header__bottom-item:active {
+    cursor: pointer;
+    background-color: #f1f1f1;
+}
+
 .content {
     background-color: #f1f1f1;
     padding-top: 32px;
